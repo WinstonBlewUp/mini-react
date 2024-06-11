@@ -5,7 +5,7 @@ services:
     build: .
     ports:
       - "3000:3000"
-      - "9000:8080" # Assuming webpack-dev-server runs on port 8080
+      - "9001:8081" # Assuming webpack-dev-server runs on port 8080
     volumes:
       - .:/usr/src/app
       - /usr/src/app/node_modules
